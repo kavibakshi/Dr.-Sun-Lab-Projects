@@ -10,7 +10,7 @@ def peptideConverter(peptideInput):
     
     peptide = list(peptideInput.lower()) # Converting Amino Acid input to a list
 
-    peptideLength = -1 
+    peptideLength = -1 # Peptide Length -1
     cysteineCount = 0
     peptideSum = 0
     lowerBound = 0
